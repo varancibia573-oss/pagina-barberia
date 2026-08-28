@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Barber Machines</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+</head>
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            Barber Machines
+        </a>
+
+        <button class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"></li>
+             <a class="nav-link" href="#inicio">Inicio</a>
+                <a class="nav-link" href="#maquinas">Máquinas</a> 
+                 <a class="nav-link" href="#comprar">Comprar</a> </li>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<!-- CARRUSEL -->
+<section id="inicio">
+
+    <div id="carrusel"
+         class="carousel slide"
+         data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+
+            <button data-bs-target="#carrusel"
+                    data-bs-slide-to="0"
+                    class="active">
+            </button>
+
+            <button data-bs-target="#carrusel"
+                    data-bs-slide-to="1">
+            </button>
+
+            <button data-bs-target="#carrusel"
+                    data-bs-slide-to="2">
+            </button>
+
+        </div>
+
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1200&q=80"
+                     class="d-block w-100"
+                     style="height:500px; object-fit:cover;"
+                     alt="Máquina de barbería">
+
+                <div class="carousel-caption">
+                    <h1>Máquinas Profesionales</h1>
+                    <p>Potencia y precisión para tu barbería.</p>
+                </div>
+
+            </div>
+
+
+            <div class="carousel-item">
+
+                <img src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?auto=format&fit=crop&w=1200&q=80"
+                     class="d-block w-100"
+                     style="height:500px; object-fit:cover;"
+                     alt="Máquina profesional">
+
+                <div class="carousel-caption">
+                    <h1>Máxima potencia</h1>
+                    <p>Equipos profesionales para cortes perfectos.</p>
+                </div>
+
+            </div>
+
+
+            <div class="carousel-item">
+
+                <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1200&q=80"
+                     class="d-block w-100"
+                     style="height:500px; object-fit:cover;"
+                     alt="Barbería">
+
+                <div class="carousel-caption">
+                    <h1>Equipá tu barbería</h1>
+                    <p>Las mejores máquinas en un solo lugar.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <button class="carousel-control-prev"
+                data-bs-target="#carrusel"
+                data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+        </button>
+
+
+        <button class="carousel-control-next"
+                data-bs-target="#carrusel"
+                data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- MÁQUINAS NUEVAS -->
+<section id="maquinas" class="container py-5">
+
+    <div class="text-center mb-5">
+
+        <h2>Máquinas Nuevas</h2>
+
+        <p>
+            Conocé nuestras máquinas profesionales nuevas.
+        </p>
+
+    </div>
+
+
+    <!-- PRODUCTOS CENTRADOS -->
+    <div class="row g-4 justify-content-center">
+
+
+        <!-- MÁQUINA 1 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+
+            <div class="card h-100 shadow">
+
+                <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=600&q=80"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Wahl Senior">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        Wahl Senior 2.0
+                    </h5>
+
+                    <p class="card-text">
+                        Máquina profesional nueva de alta potencia.
+                    </p>
+
+                    <h4>
+                        $150.000
+                    </h4>
+
+                    <a href="#comprar" class="btn btn-dark">
+                        Comprar
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MÁQUINA 2 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+
+            <div class="card h-100 shadow">
+
+                <img src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?auto=format&fit=crop&w=600&q=80"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="BaBylissPRO">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        BaBylissPRO FXONE
+                    </h5>
+
+                    <p class="card-text">
+                        Máquina nueva con potencia y precisión profesional.
+                    </p>
+
+                    <h4>
+                        $180.000
+                    </h4>
+
+                    <a href="#comprar" class="btn btn-dark">
+                        Comprar
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MÁQUINA 3 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+
+            <div class="card h-100 shadow">
+
+                <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Andis Master">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        Andis Master
+                    </h5>
+
+                    <p class="card-text">
+                        Máquina nueva con motor potente para cortes profesionales.
+                    </p>
+
+                    <h4>
+                        $200.000
+                    </h4>
+
+                    <a href="#comprar" class="btn btn-dark">
+                        Comprar
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MÁQUINA 4 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+
+            <div class="card h-100 shadow">
+
+                <img src="https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=600&q=80"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Gamma Boosted">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        Gamma+ Boosted
+                    </h5>
+
+                    <p class="card-text">
+                        Máquina nueva de alto rendimiento para barberías.
+                    </p>
+
+                    <h4>
+                        $220.000
+                    </h4>
+
+                    <a href="#comprar" class="btn btn-dark">
+                        Comprar
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MÁQUINA 5 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+
+            <div class="card h-100 shadow">
+
+                <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=600&q=80"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Wahl Magic Clip">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        Wahl Magic Clip
+                    </h5>
+
+                    <p class="card-text">
+                        Máquina profesional nueva para cortes precisos.
+                    </p>
+
+                    <h4>
+                        $160.000
+                    </h4>
+
+                    <a href="#comprar" class="btn btn-dark">
+                        Comprar
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MÁQUINA 6 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+
+            <div class="card h-100 shadow">
+
+                <img src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?auto=format&fit=crop&w=600&q=80"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Andis Slimline Pro">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        Andis Slimline Pro
+                    </h5>
+
+                    <p class="card-text">
+                        Máquina liviana y potente para trabajos profesionales.
+                    </p>
+
+                    <h4>
+                        $140.000
+                    </h4>
+
+                    <a href="#comprar" class="btn btn-dark">
+                        Comprar
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MÁQUINA 7 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+
+            <div class="card h-100 shadow">
+
+                <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="BaBylissPRO Lo-ProFX">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        BaBylissPRO Lo-ProFX
+                    </h5>
+
+                    <p class="card-text">
+                        Alto rendimiento y precisión para barbería.
+                    </p>
+
+                    <h4>
+                        $190.000
+                    </h4>
+
+                    <a href="#comprar" class="btn btn-dark">
+                        Comprar
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MÁQUINA 8 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+
+            <div class="card h-100 shadow">
+
+                <img src="https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=600&q=80"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="JRL FreshFade">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        JRL FreshFade 2020C
+                    </h5>
+
+                    <p class="card-text">
+                        Máquina profesional con gran autonomía.
+                    </p>
+
+                    <h4>
+                        $210.000
+                    </h4>
+
+                    <a href="#comprar" class="btn btn-dark">
+                        Comprar
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MÁQUINA 9 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+
+            <div class="card h-100 shadow">
+
+                <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=600&q=80"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="StyleCraft Rebel">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        StyleCraft Rebel
+                    </h5>
+
+                    <p class="card-text">
+                        Máquina potente para cortes y fades profesionales.
+                    </p>
+
+                    <h4>
+                        $175.000
+                    </h4>
+
+                    <a href="#comprar" class="btn btn-dark">
+                        Comprar
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- FORMULARIO -->
+<section id="comprar" class="bg-light py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-4">
+
+            <h2>Realizar pedido</h2>
+
+            <p>
+                Completá el formulario para comprar tu máquina.
+            </p>
+
+        </div>
+
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-7">
+
+                <div class="card shadow p-4">
+
+                    <form>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Nombre completo
+                            </label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="Ingresá tu nombre"
+                                   required>
+
+                        </div>
+
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Teléfono
+                            </label>
+
+                            <input type="tel"
+                                   class="form-control"
+                                   placeholder="Ingresá tu teléfono"
+                                   required>
+
+                        </div>
+
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Elegí tu máquina
+                            </label>
+
+                            <select class="form-select" required>
+
+                                <option value="">
+                                    Seleccioná una máquina
+                                </option>
+
+                                <option>
+                                    Wahl Senior 2.0 - $150.000
+                                </option>
+
+                                <option>
+                                    BaBylissPRO FXONE - $180.000
+                                </option>
+
+                                <option>
+                                    Andis Master - $200.000
+                                </option>
+
+                                <option>
+                                    Gamma+ Boosted - $220.000
+                                </option>
+
+                                <option>
+                                    Wahl Magic Clip - $160.000
+                                </option>
+
+                                <option>
+                                    Andis Slimline Pro - $140.000
+                                </option>
+
+                                <option>
+                                    BaBylissPRO Lo-ProFX - $190.000
+                                </option>
+
+                                <option>
+                                    JRL FreshFade 2020C - $210.000
+                                </option>
+
+                                <option>
+                                    StyleCraft Rebel - $175.000
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Mensaje
+                            </label>
+
+                            <textarea class="form-control"
+                                      rows="4"
+                                      placeholder="Escribí tu consulta..."></textarea>
+
+                        </div>
+
+
+                        <button type="submit"
+                                class="btn btn-dark w-100">
+
+                            Realizar pedido
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4">
+
+    <p class="mb-0">
+        © 2026 Barber Machines
+    </p>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+
+</html>
